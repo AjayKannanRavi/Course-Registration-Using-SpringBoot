@@ -1,0 +1,131 @@
+<html>
+<head>
+    <script type="text/javascript" src="myscript.js"></script>
+    <title>Course List</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f9f9f9;
+            margin: 50px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            background-color: #ffffff;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background: linear-gradient(to right, #00c6ff, #0072ff);
+            color: white;
+            font-size: 18px;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        td {
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2 style="text-align:center; color:#333;">Available Courses</h2>
+
+    <table>
+        <tr>
+            <th width="100">Course Id</th>
+            <th width="150">Course Name</th>
+            <th width="150">Trainer</th>
+            <th width="150">Duration (Weeks)</th>
+        </tr>
+        <tbody id="coursetable">
+            <!--Dynamic data rows will come here -->
+        </tbody>
+    </table>
+
+
+    <script type="text/javascript">
+        window.onload=function(){
+            showCourses();
+        };
+    </script>
+</body>
+</html>  
+<!-- <html>
+<head>
+    <title>Course List</title>
+     <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f9f9f9;
+            margin: 50px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            background-color: #ffffff;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background: linear-gradient(to right, #00c6ff, #0072ff);
+            color: white;
+            font-size: 18px;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        td {
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+
+<h2 style="text-align:center; color:#333;">Available Courses</h2>
+
+<table>
+    <tr>
+        <th width="100">Course Id</th>
+        <th width="150">Course Name</th>
+        <th width="150">Trainer</th>
+        <th width="150">Duration (Weeks)</th>
+    </tr>
+    <tbody id="coursetable">
+        <!-- Dynamic data rows will come here -->
+    <!-- </tbody>
+</table>
+
+<script src="myscript.js"></script>
+
+</body>
+</html> --> -->

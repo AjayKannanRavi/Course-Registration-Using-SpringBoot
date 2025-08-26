@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register a Course</title>
+    <!-- Linking external CSS -->
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <h2>KickStart with an Exciting Code</h2>
+
+    <form action="http://localhost:8080/courses/register" method="POST">
+        <label for="name">Enter your name</label>
+        <input type="text" name="name">
+
+        <label for="email">Enter your email</label>
+        <input type="text" name="emailId">
+
+        <label for="course">Choose a Course</label>
+        <select name="courseName" id="courseName">
+            <option value="Java SpringBoot">Java SpringBoot</option>
+            <option value="Python for ml">Python for ML</option>
+            <option value="AI ML">AI ML</option>
+        </select>
+        
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
