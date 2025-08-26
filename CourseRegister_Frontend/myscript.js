@@ -32,4 +32,10 @@ function showEnrolled(){
             dataTable.innerHTML+=row;
         });
     });
+
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+    showCourses();
+    showEnrolled();
+});
